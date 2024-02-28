@@ -1,47 +1,62 @@
-// const boyi = Number(prompt("bo'yi"));
-// const vazin = Number(prompt("vazin"));
+// const student = {
+//   firstName: 'ram',
+//   class: 10
+// };
 
-// const BMI = vazin / (boyi / 100) ** 2;
+///////////////////////////
 
-// if (BMI <= 18.5) {
-//   console.log("Siz ozgin ekansiz! Ko'proq oqatlaning");
-// } else if (BMI > 18.6 && BMI <= 29.9) {
-//   console.log("Siz normal holatdasiz");
-// } else {
-//   console.log("Siz semizsiz! Kam ovqatlaning yoki deyetada yuring");
-// }
+// const person = {
+//   name: 'John',
+//   age: 20
+// };
+// console.log(typeof person); // object
 
-//////////////////////////////////////////////////////////////////////////
+// // objectlarni bir qator qilib e'lon qilish mumkin lekin bunday holat juda kam bo'ladi.
+// const person = { name: 'John', age: 20 };
 
-// const numbers = [1, 3, 4, 5];
+///////////////////////////////////////////
 
-// const result = Array.isArray(numbers);
+// const Employee = {
+//   firstname: 'John',
+//   lastname: 'Doe'
+// };
 
-// console.log(result);
+// console.log(Employee.firstname);
+// // Expected output: "John"
 
-///////////////////////////////////////////////////////////////////////////////
+// delete Employee.firstname;
 
-// let arr = [1, 2, 3];
+// console.log(Employee.firstname);
+// // Expected output: undefined
 
-// alert(arr); // 1,2,3
-// alert(String(arr) === "1,2,3");
+////////////////////////////////////////////
 
-///////////////////////////////////////////////////////////////////////////////////////
+// const Employee = {
+//   firstname: 'John',
+//   lastname: 'Doe'
+// };
 
-// const numbers = [1, 2, 3, 4, 5];
+// Employee.firstname = "Sardor"
 
-// const result = Array.isArray(numbers);
+/////////////////////////////////////////////
 
-// console.log(result);
+// const person = {
+//   name: 'John',
+//   age: 30,
 
-// // output: true;
+//   // accessing name property by using this.name
+//   greet: function() { console.log('The name is' + ' ' + this.name); }
+// };
 
-// const names = [1, 4, 5, 1, 5, 7, 9, 10, 12, 7, 8, 9];
+// person.greet();
 
-// const newNames = [];
+// // lekin function ichida o'zgaruchi e'lon qilingan bo'lsa unga shart emas.
+// const person = {
+//   name: 'John',
+//   age: 30,
+//   greet: function() {
+//       let surname = 'Doe';
+//       console.log('The name is' + ' ' + this.name + ' ' + surname); }
+// };
 
-// console.log(names.includes, i++);
-
-// for (let i = 0; i < names.length; i++) {
-//   if (names[i]) newNames.push(result);
-// }
+// person.greet();
