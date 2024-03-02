@@ -1,4 +1,4 @@
-[
+/* [
   {
     id: 1,
     company: "Photosnap",
@@ -149,5 +149,35 @@
     languages: ["JavaScript"],
     tools: ["React", "Sass"],
   },
-];
-  
+]; */
+
+// const obj = {
+//   name: "Johon Dou",
+//   ago: 20,
+// };
+
+// obj.ago = 21;
+// console.log(obj);
+
+////////////////////////////////////////
+
+// const obj = {
+//   name: "Johon Dou",
+//   ago: 20,
+// };
+
+// const keys = Object.keys(obj);
+// console.log(keys);
+
+////////////////////////////////////////////
+
+// const obj = {
+//   name: "Johon Dou",
+//   ago: 20,
+// };
+
+// const keys = Object.keys(obj);
+// const values = Object.values(obj);
+// console.log(values);
+
+////////////////////////////////////////////////
